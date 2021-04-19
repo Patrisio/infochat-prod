@@ -30,7 +30,7 @@ export class InboxController {
   ) {
     console.log('HEREx');
     readFile(
-      resolve(__dirname, '..', '..', '..', 'widgets', 'chat.js'),
+      resolve(__dirname, '..', '..', 'widgets', 'chat.js'),
       'utf8',
       function (err, data) {
         console.log(data, 'dddd');
