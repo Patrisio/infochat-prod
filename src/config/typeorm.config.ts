@@ -12,6 +12,7 @@ export const ORMConfig: TypeOrmModuleOptions = {
   password: process.env.POSTGRES_PASSWORD || "Plotnikov1999",
   database: process.env.POSTGRES_DATABASE || "infochat",
   autoLoadEntities: true,
+  synchronize: true,
 };
 
 // module.exports = ORMConfig;
