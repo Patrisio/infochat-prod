@@ -22,7 +22,7 @@
 
       const storageClientId = clientId;
       attributes = {
-        'src': `http://localhost:3000/project/${projectId}/iframe/${storageClientId}`,
+        'src': `https://infochat-production.herokuapp.com/project/${projectId}/iframe/${storageClientId}`,
         'name': 'blyak_chat',
         'width': '350',
         'height': '500',
@@ -31,7 +31,7 @@
     } else {
       clientId = generateRandomHash();
       attributes = {
-        'src': `http://localhost:3000/project/${projectId}/iframe/${clientId}`,
+        'src': `https://infochat-production.herokuapp.com/project/${projectId}/iframe/${clientId}`,
         'name': 'blyak_chat',
         'width': '350',
         'height': '500',
