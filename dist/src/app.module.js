@@ -46,7 +46,7 @@ AppModule = __decorate([
                 }
             }),
             serve_static_1.ServeStaticModule.forRoot({
-                rootPath: path_1.join(__dirname, '..', 'frontend', 'build'),
+                rootPath: path_1.join(__dirname, 'frontend', 'build'),
             }),
             channels_module_1.ChannelsModule,
             templates_module_1.TemplatesModule,
