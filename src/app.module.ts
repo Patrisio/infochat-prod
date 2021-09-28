@@ -47,7 +47,7 @@ import { ProjectsModule } from './projects/projects.module';
       }
     }),
     ServeStaticModule.forRoot({
-      rootPath: join(__dirname, '..', 'frontend', 'build'),
+      rootPath: join(__dirname, '..', 'dist', 'frontend', 'build'),
     }),
     ChannelsModule,
     TemplatesModule,
